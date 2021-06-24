@@ -1,0 +1,147 @@
+html {
+  background-color: #f3f5fa;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+* {
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+.item {
+  width: calc(100% - 2rem);
+  background-color: #eee;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.item header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item header h4 {
+  color: #5748cb;
+}
+.item main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item main img {
+  width: 40%;
+  margin-right: 0.75rem;
+}
+.item main p {
+  width: calc(60% - 0.75rem);
+}
+.item footer button {
+  width: 100%;
+  color: #5748cb;
+  padding: 0.5rem 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cardHeader {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBody {
+  display: flex;
+  height: 80%;
+  flex-wrap: wrap;
+}
+
+.content {
+  width: 100%;
+}
+
+.imgContainer {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.cardFooter {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  padding: 0.5rem;
+  background: linear-gradient(#81fbb8, #28c76f);
+  margin: 0.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#abdcff, #0396ff);
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .item {
+    width: calc(50% - 2rem);
+  }
+
+  * {
+    font-size: 16px;
+  }
+
+  .content {
+    width: 70%;
+  }
+
+  .imgContainer {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .item {
+    width: calc(25% - 2rem);
+  }
+  .item main img {
+    width: 100%;
+  }
+  .item main p {
+    width: 100%;
+  }
+
+  * {
+    font-size: 18px;
+  }
+
+  .content {
+    width: 70%;
+  }
+
+  .imgContainer {
+    width: 30%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
