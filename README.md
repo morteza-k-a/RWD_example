@@ -1,6 +1,6 @@
 # RWD_example
 A few examples of responsive web design is provided in this project <br/>
-preview : [https://morteza-k-a.github.io/RWD_example/](https://morteza-k-a.github.io/RWB_example/)<br/>
+preview : [https://morteza-k-a.github.io/RWD_example/](https://morteza-k-a.github.io/RWD_example/)<br/>
 ## first example
 It is a grid with 4 cards.The number of columns and the order of content in each card changes based on the width of the device <br/>
 ## second example
